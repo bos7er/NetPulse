@@ -1,0 +1,25 @@
+NETPULSE 1.0.0 — JAK ZROBIĆ .EXE I WRZUCIĆ NA GITHUB
+
+OPCJA A — GOTOWY .EXE PRZEZ GITHUB (bez instalowania Pythona):
+1. Wejdź na github.com i utwórz publiczne repozytorium "NetPulse".
+2. Rozpakuj NetPulse-GitHub.zip i wgraj WSZYSTKIE pliki z folderu,
+   w tym ukryty folder .github (w nim jest workflow Windows).
+3. Otwórz Actions -> Build NetPulse for Windows -> Run workflow.
+4. Po zakończeniu otwórz przebieg i pobierz plik
+   "NetPulse-Windows-EXE" z sekcji Artifacts.
+5. Rozpakuj pobrany artefakt. W środku jest NetPulse.exe.
+
+OPCJA B — ZBUDUJ .EXE NA SWOIM WINDOWS:
+1. Zainstaluj Python 3.12 (python.org).
+2. Uruchom build.bat w rozpakowanym folderze NetPulse.
+3. Znajdź plik dist\NetPulse.exe.
+
+JAK DODAĆ PLIK DO GITHUB RELEASES:
+- Wypchnij tag Git "v1.0.0" do repozytorium.
+- Actions automatycznie wygeneruje .exe i doda je do Releases.
+
+Żeby skorzystać z aplikacji, osoba pobierająca gotowy .exe NIE potrzebuje
+instalować Pythona ani innych bibliotek.
+
+UWAGA: .exe nie jest podpisany cyfrowo; Windows może pokazać ostrzeżenie.
+Kod jest publiczny i można go samodzielnie sprawdzić.
