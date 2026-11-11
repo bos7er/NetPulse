@@ -4,6 +4,14 @@
 
 ![License](https://img.shields.io/badge/license-MIT-47e5be?style=flat-square) ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-6b9aff?style=flat-square) ![Python](https://img.shields.io/badge/Python-3.12-6b9aff?style=flat-square)
 
+## ☕ Support NetPulse
+
+If you like NetPulse, consider supporting its development!
+
+[![Buy Me a Coffee](https://img.shields.io/badge/☕_Buy_Me_a_Coffee-Donate_via_PayPal-blue?style=for-the-badge)](https://www.paypal.me/bos7er)
+
+
+
 ## Funkcje
 
 - **Ping ICMP** (klasyczny `ping`) lub **opóźnienie połączenia TCP** (port 443).
